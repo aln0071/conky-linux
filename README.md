@@ -1,6 +1,7 @@
 # Conky Linux Widget
 
 This is a script that produces a widget for linux. The widget looks as follows:
+
 ![Conky On Linux](images/ss.png)
 
 It shows the basic system details, weather, details of wireless connection, and battery usage.
