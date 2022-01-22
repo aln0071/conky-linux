@@ -26,7 +26,7 @@ conky.config = {
     gap_x = 30,
     gap_y = 30,
     minimum_height = 250,
-    minimum_width = 300,
+    minimum_width = 310,
     net_avg_samples = 2,
     no_buffers = true,
     out_to_console = false,
@@ -70,7 +70,7 @@ ${color1}${goto 35}Core 6 : ${color}${freq_g 6}GHz ${alignr}${cpu cpu5}% ${cpuba
 ${color1}${goto 35}Core 7 : ${color}${freq_g 7}GHz ${alignr}${cpu cpu6}% ${cpubar cpu6 4,100}
 ${color1}${goto 35}Core 8 : ${color}${freq_g 8}GHz ${alignr}${cpu cpu7}% ${cpubar cpu7 4,100}
 
-${color1}${goto 35}Uptime : ${color}$uptime_short ${alignr}${color1}Load  : ${color}${loadavg}
+${color1}${goto 35}Uptime : ${color}$uptime_short / ${exec bash /home/alan/total-time/script.sh} ${alignr}${color1}Load  : ${color}${loadavg}
 
 
 ${color1}${font FontAwesome:size=16}$font} ${voffset -10} Temperature» $hr${color}
